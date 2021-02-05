@@ -56,3 +56,14 @@ Tools to compare branches
 * git diff master..branch
 * git log master..branch
 * git shortlog master..branch
+
+Aborting a merge operation that is having conflicts
+----------------------------------------------------
+* git merge --abort
+* git reset --merge
+
+git reset local master to the state of the remote master
+--------------------------------------------------------
+1. move to local master by git co master
+2. git fetch origin
+3. git reset --hard origin/master
