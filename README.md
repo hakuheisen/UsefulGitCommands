@@ -49,3 +49,10 @@ BRANCHES and TAGS
  -------------------------------------------------------
  1. git reset --hard    origin/master
  2. git pull
+
+
+Tools to compare branches
+--------------------------
+* git diff master..branch
+* git log master..branch
+* git shortlog master..branch
