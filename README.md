@@ -57,6 +57,12 @@ Tools to compare branches
 * git log master..branch
 * git shortlog master..branch
 
+* Without creating a new tool, I think this is the closest you can get to do that now (which of course will show repeats if a file was modified more than once): git diff master..branch | grep "^diff"
+
+* Show only files that are different between the two branches (without changes themselves): git diff --name-status master..branch
+
+* Get the difference between two commits. To compare commits, we should know the commit hash which we can get using “git log” command: git diff commit_1.._commit_2
+
 Aborting a merge operation that is having conflicts
 ----------------------------------------------------
 * git merge --abort
