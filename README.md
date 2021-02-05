@@ -44,3 +44,8 @@ BRANCHES and TAGS
 * git remote update --prune      (refreshing the list and the info on remote branches you have locally)
 * git branch -m old_branch new_branch  (rename a branch)
 * git branch -a (show all branches in the list: local as well as remote)
+  
+ OVERWRITE ALL LOCAL CHANGES WITH e.g. the MASTER branch
+ -------------------------------------------------------
+ * git reset --hard    origin/master
+ * git pull
