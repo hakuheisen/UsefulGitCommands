@@ -47,5 +47,5 @@ BRANCHES and TAGS
   
  OVERWRITE ALL LOCAL CHANGES WITH e.g. the MASTER branch
  -------------------------------------------------------
- * git reset --hard    origin/master
- * git pull
+ 1. git reset --hard    origin/master
+ 2. git pull
